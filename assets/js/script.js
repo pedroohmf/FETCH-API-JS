@@ -20,10 +20,10 @@ const postId = urlSearchParams.get("id");
 async function getAllPosts() {
     const response = await fetch(url);
 
-    console.log(response);
+    // console.log(response);
 
     const data = await response.json();
-    console.log(data);
+    // console.log(data);
 
     loadingElement.classList.add("hide");
 
